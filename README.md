@@ -1,1 +1,5 @@
 # Covid-Detection-and-Infection-Mapping
+
+This project focuses on analyzing CT scan images for the diagnosis of COVID-19 through advanced deep learning techniques. In the initial phase, we apply various image processing methods to isolate regions of interest within the CT scans. Techniques such as Otsu thresholding, local peak identification, watershed segmentation, and binary closing are employed to enhance the quality of the images. These processed images are then fed into three well-known neural network models—VGG 16, VGG 19, and Inception V3. To optimize the models' performance, we fine-tune and enhance them using transfer learning, resulting in improved prediction accuracy for COVID-19 detection.
+
+In the second phase of the project, we shift our approach by generating a lung mask and an infection mask to identify the region of interest, rather than relying solely on traditional image processing techniques. This modification has proven to significantly enhance the performance of the model, allowing for more accurate segmentation and classification of the CT scan images.
